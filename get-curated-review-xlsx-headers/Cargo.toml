@@ -1,0 +1,14 @@
+[package]
+name = "get-curated-review-xlsx-headers"
+version = "0.1.0"
+edition = "2021"
+description = "CLI tool to extract headers from curated review Excel files"
+license = "MIT"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+env_logger = "0.11"
+log = "0.4"
+chrono = "0.4"
+curated-review-file-utils = { path = "../curated-review-file-utils" }
+whoami = "1.5"

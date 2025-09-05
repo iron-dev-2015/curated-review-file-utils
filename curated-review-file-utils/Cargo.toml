@@ -1,0 +1,13 @@
+[package]
+name = "curated-review-file-utils"
+version = "0.1.0"
+edition = "2021"
+description = "Library for parsing curated review Excel files"
+license = "MIT"
+
+[dependencies]
+calamine = "0.20"
+chrono = "0.4"
+serde = { version = "1.0", features = ["derive"] }
+serde_yaml = "0.9"
+whoami = "1.5"

@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "curated-review-file-utils",
+    "get-curated-review-xlsx-headers",
+]
+
+resolver = "3"
