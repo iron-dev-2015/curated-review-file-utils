@@ -4,6 +4,10 @@ version = "0.1.0"
 edition = "2021"
 description = "Library for parsing curated review Excel files"
 license = "MIT"
+repository = "https://github.com/iron-dev-2015/curated-review-file-utils"
+homepage = "https://github.com/iron-dev-2015/curated-review-file-utils"
+documentation = "https://docs.rs/curated-review-file-utils"
+readme = "../README.md"
 
 [dependencies]
 calamine = "0.20"
